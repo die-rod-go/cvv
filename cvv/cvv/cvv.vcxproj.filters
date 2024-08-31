@@ -21,10 +21,13 @@
     <ClCompile Include="Tape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lexer.cpp">
+    <ClCompile Include="Scanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Interpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,10 +38,13 @@
     <ClInclude Include="Type_Definitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lexer.h">
+    <ClInclude Include="Scanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Interpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVV.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

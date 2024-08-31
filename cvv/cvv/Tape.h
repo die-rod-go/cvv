@@ -26,13 +26,16 @@ public:
 	void bor (byte num, char oper, byte compareTo);
 	void bor(byte num);
 
-	void addCell(byte num);
-	void addCell();
+	void addCells(int amount);
+
+	void vaporize(int index);
 
 	std::vector<byte> getCells() { return cells; };
+	byte getValueAtIndex(int index);
 
 private:
+	static const int initialCellCount = 64;
 	std::vector<byte> cells;
-	bool checkCellMatceshDescriptor(byte valueInCell, char oper, byte compareTo);
+	bool checkCellMatchesDescriptor(byte valueInCell, char oper, byte compareTo);
 };
 

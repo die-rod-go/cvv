@@ -127,14 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CVV.cpp" />
     <ClCompile Include="Interpreter.cpp" />
-    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="Scanner.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Tape.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CVV.h" />
     <ClInclude Include="Interpreter.h" />
-    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="Scanner.h" />
     <ClInclude Include="Tape.h" />
     <ClInclude Include="Type_Definitions.h" />
   </ItemGroup>
